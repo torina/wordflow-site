@@ -6,7 +6,9 @@ import './header.scss'
 
 export default () => (
   <div className="header">
-    <div className="header-hero" style={{ backgroundImage: 'url(../../images/logo.png)' }} />
+    <div className="header-hero" style={{  
+      backgroundImage: 'url(../../images/logo.png)',
+      height: 150 }} />
   </div>
 )
 
